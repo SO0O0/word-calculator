@@ -27,3 +27,11 @@ function Equal(calcnum) {
         }
     }
 }
+
+// Function that calls the Equal function with the Enter key as you type
+function toEnter() {
+    if(window.event.keyCode == 13) {
+        Equal(1);
+    }
+}
+
